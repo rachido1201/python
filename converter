@@ -1,0 +1,17 @@
+def convert(celcius):
+   return (celcius * 9/5) +32
+
+celcius =input("Enter your value in Celsius: ")
+
+farenheit= convert(int(celcius))
+print (celcius + "degrees Celcius are " + str(farenheit)+ "degrees farenheit.")
+
+def feet_centimeterconvert(feet) :
+ return feet * 30.48
+
+feet = input ("Enter your height in feet: ")
+
+centimeter = feet_centimeterconvert(float(feet))
+
+
+print(feet + " in centimeter is "+ str(centimeter)+ "cm.")
