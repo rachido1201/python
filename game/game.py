@@ -2,6 +2,7 @@
 
 import random
 answer = random.randint(1,101)
+guess_number = 0
 user_wins = False
 attempts = 0
 
@@ -17,7 +18,7 @@ while user_wins is True :
 
 try :
 
-    guess_number :int(guess)
+    guess_number = int(guess)
 
     #check input
 
